@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-[#71f3e2]  to-[#114081] ">
+    <h1 class="justify-self-center text-center font-bold text-5xl text-white mt-3 hover:animate-bounce">Table APP</h1>
+    <div class="border-2 border-gray-600 rounded-lg bg-white  justify-self-center mt-6 w-[50%] h-[80%]">
+    <h2 class="text-purple-900 font-semibold justify-self-center mt-3 text-lg">Table of : <input class="rounded-lg p-1 border w-[50%] border-gray-600" type="number" id="table" placeholder="Enter a Table"></h2>
+    <h2 class="text-purple-900 font-semibold justify-self-center mt-3 text-lg">Number of times : <input class="rounded-lg p-1 w-[50%] border border-gray-600" type="number" id="number" placeholder="Enter a Number"></h2><br>
+    <div id="btnparent" class="w-[30%] justify-self-center ">
+        <button class="text-purple-900 w-[100%]  border border-gray-600  font-semibold   mt-3 mb-3 rounded-lg hover:bg-purple-900 hover:text-white p-1" id="btn" onclick="gettable()">Generarte Table</button>
+    </div>
+    <div class=" text-purple-900 text-center text-lg" id="parent"></div>
+</div>
+</body>
+<script src="app.js"></script>
+</html>
